@@ -95,7 +95,9 @@ header .fa-bell {
 /*fine topbar*/
 
 /*inizio main content*/
-
+.top-bar {
+    background-color: #1B72E8;
+}
 /*fine main content*/
 
 /*fine main*/
@@ -133,16 +135,8 @@ main {
 }
 /*fine utilities*/
 /* DA CANCELLARE */
-.side-bar .content {
-    height: 150px;
-    width: 100%;
-    background-color: aqua;
-}
 main {
     background-color: green;
-}
-.top-bar {
-    background-color: goldenrod;
 }
 .top-bar .content {
     height: 90px;
