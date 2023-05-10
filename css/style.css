@@ -91,13 +91,29 @@ header .fa-bell {
 /*inizio main*/
 
 /*inizio topbar*/
-
-/*fine topbar*/
-
-/*inizio main content*/
 .top-bar {
     background-color: #1B72E8;
 }
+.add-student{
+    border-radius: 8px;
+    border: 1px solid #fff;
+    height: 40px;
+    width: 40px;
+    position: relative;
+}
+
+.plus{
+    position: absolute;
+    bottom: 1px;
+    right: 9px;
+}
+.badge-color{
+    background-color: #165BBA;
+}
+/*fine topbar*/
+
+/*inizio main content*/
+
 /*fine main content*/
 
 /*fine main*/
@@ -137,11 +153,6 @@ main {
 /* DA CANCELLARE */
 main {
     background-color: green;
-}
-.top-bar .content {
-    height: 90px;
-    background-color: darkblue;
-    margin-bottom: 10px;
 }
 .next-classes .content {
     height: 250px;
