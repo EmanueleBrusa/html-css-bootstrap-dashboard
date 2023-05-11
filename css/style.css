@@ -168,7 +168,7 @@ header .fa-bell {
 table img {
     width: 30px;
 }
-table td:hover, table th:hover{
+table tr:hover {
     background-color: rgba(0,0,0,.075);
 }
 /*fine main content*/
@@ -244,5 +244,10 @@ h2 {
     }
     .top-bar .right-content, .top-bar .left-content {
         margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 768){
+    .t-col-hide{
+        display: none;
     }
 }
