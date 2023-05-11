@@ -140,6 +140,28 @@ header .fa-bell {
     border: 1px solid white;
     border-radius: 5px;
 }
+.plus-btn {
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.2s ease-in-out;
+    padding: 20px 20px;
+}
+  
+.plus-btn:hover {
+    background-color: #fff;
+}
+  
+.plus-btn i {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    transition: color 0.2s ease-in-out;
+}
+  
+.plus-btn:hover i {
+    color: #000;
+}
 /*fine topbar*/
 
 /*inizio main content*/
@@ -192,7 +214,7 @@ h2 {
     border-radius: 0;
     border-style: hidden;
 }
-  .btn-outline-secondary:hover {
+.btn-outline-secondary:hover {
     background-color: #ccc;
     border-color: #ccc;
     color: white;
