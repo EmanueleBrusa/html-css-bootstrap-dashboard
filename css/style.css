@@ -168,6 +168,9 @@ header .fa-bell {
 table img {
     width: 30px;
 }
+table td:hover, table th:hover{
+    background-color: rgba(0,0,0,.075);
+}
 /*fine main content*/
 
 /*fine main*/
