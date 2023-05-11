@@ -165,7 +165,9 @@ header .fa-bell {
 /*fine topbar*/
 
 /*inizio main content*/
-
+table img {
+    width: 30px;
+}
 /*fine main content*/
 
 /*fine main*/
@@ -220,26 +222,7 @@ h2 {
     color: white;
 }
 /*fine utilities*/
-/* DA CANCELLARE */
-main {
-    background-color: green;
-}
-.next-classes .content {
-    background-color: gray;
-}
-.f-a-q .content {
-    height: 150px;
-    background-color: aqua;
-}
-.todo .content {
-    height: 150px;
-    background-color: firebrick;
-}
-.active-users .content {
-    height: 250px;
-    background-color: darkslategrey;
-}
-/* DA CANCELLARE */
+
 /*media query*/
 @media screen and (min-width: 1200px) {
     .side-bar {
