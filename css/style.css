@@ -185,6 +185,18 @@ h2 {
 .side-bar span, .top-bar {
     font-size: 18px;
 }
+.btn-outline-secondary {
+    background-color: transparent;
+    border-color: #ccc;
+    color: white;
+    border-radius: 0;
+    border-style: hidden;
+}
+  .btn-outline-secondary:hover {
+    background-color: #ccc;
+    border-color: #ccc;
+    color: white;
+}
 /*fine utilities*/
 /* DA CANCELLARE */
 main {
