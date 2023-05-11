@@ -9,12 +9,12 @@ body {
 /*inizio header*/
 header .content {
     padding: 0 10px;
-    margin: 10px 0;
+    margin: 15px 0;
     background-color: white;
-    height: 60px;
+    height: 50px;
 }
 header .logo-mobile img {
-    height: 60px;
+    height: 50px;
 }
 header .logo-desktop img {
     height: 35px;
@@ -225,7 +225,6 @@ main {
     background-color: green;
 }
 .next-classes .content {
-    height: 250px;
     background-color: gray;
 }
 .f-a-q .content {
