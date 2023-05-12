@@ -267,7 +267,7 @@ h2 {
         margin-bottom: 0px;
     }
 }
-@media screen and (max-width: 768){
+@media screen and (max-width: 768px){
     .t-col-hide{
         display: none;
     }
